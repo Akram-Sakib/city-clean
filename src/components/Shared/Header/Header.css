@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+nav {
+  padding: 20px 30px 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  align-items: center;
+}
+nav .logo {
+  margin-left: 40px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  margin: 0 2px;
+  cursor: pointer;
+}
+ul li a {
+  color: gray;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: 500;
+  transition: all 0.5s ease;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+ul li a:hover,
+ul li a.active {
+  color: rgb(33, 83, 83);
+}
+#check {
+  display: none;
+}
+.menu-btn {
+  color: black;
+  font-size: 22px;
+  cursor: pointer;
+  margin-right: 20px;
+  display: none;
+}
+@media (max-width: 1020px) {
+  nav ul {
+    position: fixed;
+    top: 75px;
+    left: -100%;
+    height: 100vh;
+    width: 100%;
+    display: block;
+    background-color: rgba(5, 5, 5, 0.733);
+    text-align: center;
+    padding-top: 10px;
+    transition: all 0.5s ease-in-out;
+  }
+  .login {
+    width: 25% !important;
+    margin: 20px auto;
+  }
+  #check:checked ~ ul {
+    left: 0%;
+  }
+  #check:checked ~ .menu-btn i:before {
+    content: "\f00d";
+  }
+  nav ul li {
+    margin-top: 30px;
+  }
+  ul li a {
+    color: rgb(163, 157, 157);
+  }
+  ul li a:hover,
+  ul li a.active {
+    color: white;
+    background: none;
+  }
+  .menu-btn {
+    display: block;
+  }
+  nav .logo {
+    margin-left: 20px;
+  }
+}

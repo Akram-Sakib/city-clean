@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "img": "https://avatars.githubusercontent.com/u/86649964?v=4",
+    "name": "Akram Sakib",
+    "degisnation": "CEO, dtCode",
+    "description": "We are alawys gettting a lot errors when we start cosing and it is more important to overcome the problem",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "img": "https://scontent.fdac20-1.fna.fbcdn.net/v/t1.6435-9/120894323_197059875119957_6342630029659575816_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHVU4fmKo1GwJWfHeo32MCJKV-wUZZMoFspX7BRlkygWyP2hNhcdC6uKcTefx5xzI3P-XIUK1O6HCVF8V_hLO1S&_nc_ohc=chJbX2keC44AX83jpZB&_nc_ht=scontent.fdac20-1.fna&oh=00_AT8o669RKsgLE8nJphek5d715K0uzhv6-qz2pYmJKfqJgg&oe=61DFCE80",
+    "name": "Jhankar Mahbub",
+    "degisnation": "Sr. Web Developer",
+    "description": "Learning web devlopement is the best way to start your career and always be possesive to gain your success.",
+    "rating": 4.6
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/Rb4WfqX/icchetube.jpg",
+    "name": "Akram Sakib",
+    "degisnation": "CEO, iccheTube",
+    "description": "Be always active to get the best result when you are doing hard work because it the key to success.",
+    "rating": 4.6
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co/VjPrhRc/download.jpg",
+    "name": "Gaming Shuvo",
+    "degisnation": "Youtuber and Gamer",
+    "description": "We are getting trouble when we are tring to do something for anyone and to gain success we should be more active.",
+    "rating": 4.7
+  }
+]

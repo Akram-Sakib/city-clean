@@ -1,0 +1,38 @@
+[
+  {
+    "img": "https://i.ibb.co/SsvYqhT/home.png",
+    "name": "Home Cleaning",
+    "price": "232",
+    "description": "We offer monthly or querterly home cleaning. Covering general cleaning mopping floors windows."
+  },
+  {
+    "img": "https://i.ibb.co/KVtXhm9/mop.png",
+    "name": "Floar Cleaning",
+    "price": "198",
+    "description": "We offer by-weekly or monthly floar cleaning. It is very important to have cleaned your floar."
+  },
+  {
+    "img": "https://i.ibb.co/tBFDGBR/swimming-pool.png",
+    "name": "Pool Cleaning",
+    "price": "345",
+    "description": "We offer weekly or monthly pool cleaning. We also clean pool so that you could be more comportable."
+  },
+  {
+    "img": "https://i.ibb.co/Y7NtML7/workspace.png",
+    "name": "Office Cleaning",
+    "price": "454",
+    "description": "We offer querterly or monthly office cleaning.Office is always very important for a businessman."
+  },
+  {
+    "img": "https://i.ibb.co/gtb17Xw/window-1.png",
+    "name": "Window Cleaning",
+    "price": "155",
+    "description": "We offer by-weekly or monthly window cleaning. Window always should be cleaned cause it is effective."
+  },
+  {
+    "img": "https://i.ibb.co/Gvxh6RG/armchair.png",
+    "name": "Carpet Cleaning",
+    "price": "212",
+    "description": "We offer weekly or monthly carpet cleaning. Your couch, carpet and necessary things should be cleaned."
+  }
+]
