@@ -16,7 +16,7 @@ SwiperCore.use([Pagination]);
 const Testomonials = () => {
   const [testomonials, setTestomonials] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/testimonials")
+    fetch("https://city-clean.herokuapp.com/testimonials")
       .then((res) => res.json())
       .then((data) => setTestomonials(data));
   }, []);

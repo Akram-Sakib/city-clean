@@ -8,7 +8,7 @@ const AddServices = () => {
   const onSubmit = (data) => {
     console.log(data);
     // send to the server
-    fetch(`http://localhost:5000/services`, {
+    fetch(`https://city-clean.herokuapp.com/services`, {
       method: "POST",
       headers: {
         "content-type": "application/json",

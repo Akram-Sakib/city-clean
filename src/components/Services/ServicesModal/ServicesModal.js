@@ -18,7 +18,7 @@ const ServicesModal = ({ open, setOpen, setBookingSuccess, allService }) => {
     };
 
     // send to the server
-    fetch(`http://localhost:5000/servicesOrder`, {
+    fetch(`https://city-clean.herokuapp.com/servicesOrder`, {
       method: "POST",
       headers: {
         authorization: `Bearer ${token}`,

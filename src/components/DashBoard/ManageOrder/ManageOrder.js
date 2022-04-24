@@ -9,7 +9,7 @@ const ManageOrder = () => {
   const handleDeleteUser = (id) => {
     const proceed = window.confirm("Are You sure You want to DELETE?");
     if (proceed) {
-      fetch(`http://localhost:5000/orders/${id}`, {
+      fetch(`https://city-clean.herokuapp.com/orders/${id}`, {
         method: "DELETE",
       })
         .then((res) => res.json())
@@ -27,7 +27,7 @@ const ManageOrder = () => {
   // UPDATE
   // update order status
   const handleUpdate = (id) => {
-    fetch(`http://localhost:5000/orders/update/${id}`, {
+    fetch(`https://city-clean.herokuapp.com/orders/update/${id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",
@@ -43,7 +43,7 @@ const ManageOrder = () => {
   };
 
   useEffect(() => {
-    fetch(`http://localhost:5000/allorders`)
+    fetch(`https://city-clean.herokuapp.com/allorders`)
       .then((res) => res.json())
       .then((data) => setAllOrders(data));
   }, []);

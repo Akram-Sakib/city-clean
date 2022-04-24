@@ -10,7 +10,7 @@ const Services = () => {
   const [bookingSuccess, setBookingSuccess] = useState(false);
 
   useEffect(() => {
-    fetch("http://localhost:5000/services")
+    fetch("https://city-clean.herokuapp.com/services")
       .then((res) => res.json())
       .then((data) => setAllServices(data));
   }, []);

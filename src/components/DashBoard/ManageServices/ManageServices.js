@@ -4,7 +4,7 @@ import ManageAllServices from "./ManageAllServices/ManageAllServices";
 const ManageServices = () => {
   const [manageServices, setmanageServices] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/services")
+    fetch("https://city-clean.herokuapp.com/services")
       .then((res) => res.json())
       .then((data) => setmanageServices(data));
   }, []);
@@ -13,7 +13,7 @@ const ManageServices = () => {
   const handleDeleteUser = (id) => {
     const proceed = window.confirm("Are You sure You want to DELETE?");
     if (proceed) {
-      fetch(`http://localhost:5000/services/${id}`, {
+      fetch(`https://city-clean.herokuapp.com/services/${id}`, {
         method: "DELETE",
       })
         .then((res) => res.json())

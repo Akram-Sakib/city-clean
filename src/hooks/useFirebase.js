@@ -109,7 +109,7 @@ const useFirebase = () => {
   // save user to database
   const saveUser = (email, displayName, method) => {
     const user = { email, displayName };
-    fetch("http://localhost:5000/users", {
+    fetch("https://city-clean.herokuapp.com/users", {
       method: method,
       headers: {
         "content-type": "application/json",
@@ -121,7 +121,7 @@ const useFirebase = () => {
   // get admin from database
   useEffect(() => {
     // setLoading(true);
-    fetch(`http://localhost:5000/users/${user.email}`)
+    fetch(`https://city-clean.herokuapp.com/users/${user.email}`)
       .then((res) => res.json())
       .then((data) => setAdmin(data.admin));
     // .catch((error) => {
